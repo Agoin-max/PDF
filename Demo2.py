@@ -1,0 +1,26 @@
+def Singleton(cls):
+    _instance = {}
+
+    def _singleton(*args, **kargs):
+        if cls not in _instance:
+            _instance[cls] = cls(*args, **kargs)
+        return _instance[cls]
+
+    return _singleton
+
+
+@Singleton
+class A(object):
+    a = 1
+
+    def __init__(self, x=0):
+        self.x = x
+
+    def __str__(self):
+        return "x值为{}".format(self.x)
+
+
+a1 = A(2)
+a2 = A(3)
+print(a1)
+print(a2)

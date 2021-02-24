@@ -1,0 +1,1489 @@
+{
+  "0109": {
+    "Name": "ExtractPdf(self.pdf_pages, self.pdf_obj,self.company_number)",
+    "Comparison": "DataComparison(self.company_number)",
+    "CompanyName": "文晔",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": [
+          "CTM",
+          "DESCRIPTION",
+          "BRAND",
+          "QTY(PCS)",
+          "CUSTOMER",
+          "U/P",
+          "AMOUNT(USD)"
+        ],
+        "x0_left": "0.05",
+        "x1_right": "0.05",
+        "top_0": "1.5",
+        "bottom_0": "1.5",
+        "move": "52",
+        "end_first": "Total",
+        "end_second": "These"
+      },
+      "PACKING": {
+        "columns": [
+          "Cust.P/O#Header",
+          "C/NO",
+          "DESCRIPTION",
+          "BRAND",
+          "QTY(PCS)",
+          "ORIGIN",
+          "N.W(KGS)",
+          "G.W(KGS)"
+        ],
+        "x0_left": "0.05",
+        "x1_right": "0.05",
+        "top_0": "1",
+        "bottom_0": "1",
+        "move": "78",
+        "end_first": "TOTAL",
+        "end_second": "Certificate"
+      }
+    }
+  },
+  "0110": {
+    "Name": "ExtractPdfWorld(self.pdf_pages, self.pdf_obj,self.company_number)",
+    "Comparison": "ShiPingComparison(self.company_number)",
+    "CompanyName": "世平",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": [
+          "Item"
+        ],
+        "x0_left": "3",
+        "x1_right": "0.05",
+        "top_0": "1",
+        "bottom_0": "1",
+        "move": "19",
+        "move_second": "28",
+        "end_first": "SUB",
+        "end_second": "TOTAL"
+      },
+      "PACKING": {
+        "columns": {
+          "CARTON": {
+            "x0_left": "2",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "Item": {
+            "x0_left": "21.65",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "P/O": {
+            "x0_left": "17.88",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "QUANTITY": {
+            "x0_left": "17.88",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "N/W(KG)": {
+            "x0_left": "3",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          },
+          "G/W(KG)": {
+            "x0_left": "2.26",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          }
+        },
+        "move_second": "97.2",
+        "end_first": "Total:",
+        "end_second": "頁碼:"
+      }
+    }
+  },
+  "0111": {
+    "Name": "ExtractXinTaiPdf(self.pdf_pages, self.pdf_obj,self.company_number)",
+    "Comparison": "XinTaiComparison(self.company_number)",
+    "CompanyName": "欣泰",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": {
+          "BRAND.": {
+            "x0_left": "1",
+            "x1_right": "60",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc_l": "1",
+            "desc_r": "60"
+          },
+          "P.O.": {
+            "x0_left": "44",
+            "x1_right": "40",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc_l": "1",
+            "desc_r": "100"
+          },
+          "UNIT": {
+            "x0_left": "2",
+            "x1_right": "15",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc_l": "1",
+            "desc_r": "15"
+          },
+          "PART": {
+            "x0_left": "1",
+            "x1_right": "120",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc_l": "1",
+            "desc_r": "120"
+          },
+          "P/N": {
+            "x0_left": "44",
+            "x1_right": "40",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc_l": "1",
+            "desc_r": "90"
+          },
+          "DESCRIPTION": {
+            "x0_left": "6",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc_l": "1",
+            "desc_r": "50"
+          },
+          "QTY": {
+            "x0_left": "20",
+            "x1_right": "20",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc_l": "30",
+            "desc_r": "50"
+          },
+          "PRICE": {
+            "x0_left": "30",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc_l": "20",
+            "desc_r": "65"
+          },
+          "AMOUNT": {
+            "x0_left": "50",
+            "x1_right": "40",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc_l": "15",
+            "desc_r": "60"
+          }
+        },
+        "move_second": "30",
+        "end_first": "USD",
+        "end_second": ""
+      },
+      "PACKING": {
+        "columns": {
+          "CTN#": {
+            "x0_left": "1",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "3",
+            "move": "16.22",
+            "desc_l": "1",
+            "desc_r": "50"
+          },
+          "BRAND": {
+            "x0_left": "1",
+            "x1_right": "40",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "31.86",
+            "desc_l": "1",
+            "desc_r": "70"
+          },
+          "PART": {
+            "x0_left": "1",
+            "x1_right": "90",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "31.86",
+            "desc_l": "1",
+            "desc_r": "100"
+          },
+          "QTY": {
+            "x0_left": "20",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "2",
+            "move": "31.86",
+            "desc_l": "30",
+            "desc_r": "50"
+          },
+          "N.W.": {
+            "x0_left": "1",
+            "x1_right": "40",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "29.86",
+            "desc_l": "4",
+            "desc_r": "30"
+          },
+          "G.W.": {
+            "x0_left": "1",
+            "x1_right": "40",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "29.86",
+            "desc_l": "8",
+            "desc_r": "30"
+          },
+          "ORIGIN": {
+            "x0_left": "30",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30.14",
+            "desc_l": "30",
+            "desc_r": "50"
+          }
+        },
+        "move_second": "33",
+        "end_first": "SAY",
+        "end_second": "頁碼:"
+      }
+    }
+  },
+  "0112": {
+    "Name": "ExtractFengYiPdf(self.pdf_pages, self.pdf_obj,self.company_number,self.path)",
+    "Comparison": "FengYiComparison(self.company_number)",
+    "CompanyName": "丰艺",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": {
+          "PO": {
+            "x0_left": "11",
+            "x1_right": "453",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "26",
+            "desc": "1"
+          }
+        },
+        "move_second": "12",
+        "end_first": "NonTaxable",
+        "end_second": ""
+      },
+      "PACKING": {
+        "columns": {
+          "Carton": {
+            "x0_left": "0",
+            "x1_right": "15",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "20.705",
+            "desc": "7"
+          },
+          "DESCRIPTION": {
+            "x0_left": "58",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "27.905",
+            "desc": "5"
+          },
+          "C/O": {
+            "x0_left": "5",
+            "x1_right": "5",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "21.665",
+            "desc": "5"
+          },
+          "QTY": {
+            "x0_left": "47.4",
+            "x1_right": "10",
+            "top_0": "1",
+            "bottom_0": "1.5",
+            "move": "25.385",
+            "desc": "5"
+          },
+          "NET": {
+            "x0_left": "20",
+            "x1_right": "25",
+            "top_0": "1",
+            "bottom_0": "1.5",
+            "move": "25.385",
+            "desc": "10"
+          },
+          "GROSS": {
+            "x0_left": "2",
+            "x1_right": "25",
+            "top_0": "1",
+            "bottom_0": "1.5",
+            "move": "25.385",
+            "desc": "10"
+          }
+        },
+        "move_second": "24.72",
+        "end_first": "TOTAL",
+        "end_second": "頁碼:"
+      }
+    }
+  },
+  "0113": {
+    "Name": "ExtractHongYiPdf(self.pdf_pages, self.pdf_obj,self.company_number)",
+    "Comparison": "HongYiComparison(self.company_number)",
+    "CompanyName": "弘亿",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": {
+          "BRAND.": {
+            "x0_left": "1",
+            "x1_right": "40",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc": "1"
+          },
+          "P.O.": {
+            "x0_left": "44",
+            "x1_right": "40",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc": "1"
+          },
+          "UNIT": {
+            "x0_left": "2",
+            "x1_right": "2",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc": "1"
+          },
+          "PART": {
+            "x0_left": "1",
+            "x1_right": "60",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc": "1"
+          },
+          "P/N": {
+            "x0_left": "44",
+            "x1_right": "40",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc": "1"
+          },
+          "DESCRIPTION": {
+            "x0_left": "6",
+            "x1_right": "0",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc": "1"
+          },
+          "QTY": {
+            "x0_left": "20",
+            "x1_right": "20",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc": "10"
+          },
+          "PRICE": {
+            "x0_left": "15",
+            "x1_right": "20",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc": "1"
+          },
+          "AMOUNT": {
+            "x0_left": "25",
+            "x1_right": "5",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "30",
+            "desc": "15"
+          }
+        },
+        "move_second": "30",
+        "end_first": "USD",
+        "end_second": ""
+      },
+      "PACKING": {
+        "columns": {
+          "C/NO": {
+            "x0_left": "0",
+            "x1_right": "5",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "45.78",
+            "desc": "10"
+          },
+          "Brand": {
+            "x0_left": "10",
+            "x1_right": "10",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "52.11",
+            "desc": "2"
+          },
+          "Description": {
+            "x0_left": "35",
+            "x1_right": "10",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "46.246",
+            "desc": "25"
+          },
+          "Customer": {
+            "x0_left": "20",
+            "x1_right": "26",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "52.246",
+            "desc": "5"
+          },
+          "Q'ty": {
+            "x0_left": "0",
+            "x1_right": "19.664",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "46.246",
+            "desc": "15"
+          },
+          "Net": {
+            "x0_left": "0",
+            "x1_right": "45",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "46.246",
+            "desc": "25"
+          },
+          "Gross": {
+            "x0_left": "0",
+            "x1_right": "43.052",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "46.246",
+            "desc": "25"
+          }
+        },
+        "move_second": "33.12",
+        "end_first": "Total:",
+        "end_second": "頁碼:"
+      }
+    }
+  },
+  "0114": {
+    "Name": "ExtractPdfWorld(self.pdf_pages, self.pdf_obj,self.company_number)",
+    "Comparison": "ShiPingComparison(self.company_number)",
+    "CompanyName": "振远",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": [
+          "Item"
+        ],
+        "x0_left": "3",
+        "x1_right": "0.05",
+        "top_0": "1",
+        "bottom_0": "1",
+        "move": "19",
+        "move_second": "28",
+        "end_first": "SUB",
+        "end_second": "TOTAL"
+      },
+      "PACKING": {
+        "columns": {
+          "CARTON": {
+            "x0_left": "2",
+            "x1_right": "30",
+            "top_0": "3",
+            "bottom_0": "3",
+            "move": "18",
+            "desc": "10"
+          },
+          "Item": {
+            "x0_left": "21.65",
+            "x1_right": "50",
+            "top_0": "3",
+            "bottom_0": "3",
+            "move": "18",
+            "desc": "10"
+          },
+          "P/O": {
+            "x0_left": "17.88",
+            "x1_right": "50",
+            "top_0": "3",
+            "bottom_0": "3",
+            "move": "18",
+            "desc": "10"
+          },
+          "QUANTITY": {
+            "x0_left": "17.88",
+            "x1_right": "1",
+            "top_0": "3",
+            "bottom_0": "3",
+            "move": "18",
+            "desc": "10"
+          },
+          "N/W(KG)": {
+            "x0_left": "3",
+            "x1_right": "1",
+            "top_0": "3",
+            "bottom_0": "3",
+            "move": "18.882",
+            "desc": "10"
+          },
+          "G/W(KG)": {
+            "x0_left": "2.26",
+            "x1_right": "1",
+            "top_0": "3",
+            "bottom_0": "3",
+            "move": "18.882",
+            "desc": "10"
+          }
+        },
+        "move_second": "97.2",
+        "end_first": "Total:",
+        "end_second": "頁碼:"
+      }
+    }
+  },
+  "0115": {
+    "Name": "ExtractPdfWorld(self.pdf_pages, self.pdf_obj,self.company_number)",
+    "Comparison": "ShiPingComparison(self.company_number)",
+    "CompanyName": "富威",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": [
+          "Item"
+        ],
+        "x0_left": "3",
+        "x1_right": "0.05",
+        "top_0": "1",
+        "bottom_0": "1",
+        "move": "19",
+        "move_second": "28",
+        "end_first": "SUB",
+        "end_second": "TOTAL"
+      },
+      "PACKING": {
+        "columns": {
+          "CARTON": {
+            "x0_left": "2",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "Item": {
+            "x0_left": "21.65",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "P/O": {
+            "x0_left": "17.88",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "QUANTITY": {
+            "x0_left": "17.88",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "N/W(KG)": {
+            "x0_left": "3",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          },
+          "G/W(KG)": {
+            "x0_left": "2.26",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          }
+        },
+        "move_second": "97.2",
+        "end_first": "Total:",
+        "end_second": "頁碼:"
+      }
+    }
+  },
+  "0116": {
+    "Name": "ExtractPingJiaWorld(self.pdf_pages, self.pdf_obj,self.company_number)",
+    "Comparison": "PingJiaComparison(self.company_number)",
+    "CompanyName": "品佳",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": {
+          "Item": {
+            "x0_left": "5",
+            "x1_right": "150",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "19.082",
+            "desc_l": "1",
+            "desc_r": "150"
+          },
+          "P/O": {
+            "x0_left": "70",
+            "x1_right": "70",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "19.082",
+            "desc_l": "1",
+            "desc_r": "150"
+          },
+          "QUANTITY": {
+            "x0_left": "1",
+            "x1_right": "70",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "19.082",
+            "desc_l": "30",
+            "desc_r": "40"
+          },
+          "PRICE": {
+            "x0_left": "5",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "19.082",
+            "desc_l": "15",
+            "desc_r": "50"
+          },
+          "No.": {
+            "x0_left": "30",
+            "x1_right": "120",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "31.182",
+            "desc_l": "5",
+            "desc_r": "150"
+          }
+        },
+        "move_second": "28",
+        "end_first": "USB",
+        "end_second": ""
+      },
+      "PACKING":{
+        "columns": {
+          "CARTON": {
+            "x0_left": "5",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.082",
+            "desc_l": "1",
+            "desc_r": "50"
+          },
+          "Item": {
+            "x0_left": "30",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.082",
+            "desc_l": "1",
+            "desc_r": "100"
+          },
+          "QUANTITY": {
+            "x0_left": "30",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.082",
+            "desc_l": "1",
+            "desc_r": "50"
+          },
+          "N/W(KG)": {
+            "x0_left": "30",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.082",
+            "desc_l": "1",
+            "desc_r": "30"
+          },
+          "G/W(KG)": {
+            "x0_left": "10",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.082",
+            "desc_l": "1",
+            "desc_r": "30"
+          }
+        },
+        "move_second": "97.2",
+        "end_first": "頁碼:",
+        "end_second": ""
+      }
+    }
+  },
+  "0117": {
+    "Name": "ExtractPdfWorld(self.pdf_pages, self.pdf_obj,self.company_number)",
+    "Comparison": "ShiPingComparison(self.company_number)",
+    "CompanyName": "友尚",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": [
+          "Item"
+        ],
+        "x0_left": "3",
+        "x1_right": "0.05",
+        "top_0": "1",
+        "bottom_0": "1",
+        "move": "19",
+        "move_second": "28",
+        "end_first": "SUB",
+        "end_second": "TOTAL"
+      },
+      "PACKING": {
+        "columns": {
+          "CARTON": {
+            "x0_left": "2",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "Item": {
+            "x0_left": "21.65",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "P/O": {
+            "x0_left": "17.88",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "QUANTITY": {
+            "x0_left": "17.88",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "N/W(KG)": {
+            "x0_left": "3",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          },
+          "G/W(KG)": {
+            "x0_left": "2.26",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          }
+        },
+        "move_second": "97.2",
+        "end_first": "Total:",
+        "end_second": "頁碼:"
+      }
+    }
+  },
+  "0118": {
+    "Name": "ExtractAirRuiPdf(self.pdf_pages, self.pdf_obj,self.company_number,self.path)",
+    "Comparison": "AiRuiComparison(self.company_number)",
+    "CompanyName": "艾睿",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": [
+          "Item"
+        ],
+        "x0_left": "3",
+        "x1_right": "0.05",
+        "top_0": "1",
+        "bottom_0": "1",
+        "move": "19",
+        "move_second": "28",
+        "end_first": "SUB",
+        "end_second": "TOTAL"
+      },
+      "PACKING": {
+        "columns": {
+          "CARTON": {
+            "x0_left": "2",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "Item": {
+            "x0_left": "21.65",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "P/O": {
+            "x0_left": "17.88",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "QUANTITY": {
+            "x0_left": "17.88",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "N/W(KG)": {
+            "x0_left": "3",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          },
+          "G/W(KG)": {
+            "x0_left": "2.26",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          }
+        },
+        "move_second": "97.2",
+        "end_first": "Total:",
+        "end_second": "頁碼:"
+      }
+    }
+  },
+  "0119": {
+    "Name": "ExtractZengNiQiangPdf(self.pdf_pages, self.pdf_obj,self.company_number,self.path)",
+    "Comparison": "ZengNiQiangComparison(self.company_number)",
+    "CompanyName": "增你强",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": [
+          "Item"
+        ],
+        "x0_left": "3",
+        "x1_right": "0.05",
+        "top_0": "1",
+        "bottom_0": "1",
+        "move": "19",
+        "move_second": "28",
+        "end_first": "SUB",
+        "end_second": "TOTAL"
+      },
+      "PACKING": {
+        "columns": {
+          "CARTON": {
+            "x0_left": "2",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "Item": {
+            "x0_left": "21.65",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "P/O": {
+            "x0_left": "17.88",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "QUANTITY": {
+            "x0_left": "17.88",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "N/W(KG)": {
+            "x0_left": "3",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          },
+          "G/W(KG)": {
+            "x0_left": "2.26",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          }
+        },
+        "move_second": "97.2",
+        "end_first": "Total:",
+        "end_second": "頁碼:"
+      }
+    }
+  },
+  "0120": {
+    "Name": "ExtractSamtecPdf(self.pdf_pages, self.pdf_obj,self.company_number,self.path)",
+    "Comparison": "SamtecComparison(self.company_number)",
+    "CompanyName": "SAMTEC",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": [
+          "Item"
+        ],
+        "x0_left": "3",
+        "x1_right": "0.05",
+        "top_0": "1",
+        "bottom_0": "1",
+        "move": "19",
+        "move_second": "28",
+        "end_first": "SUB",
+        "end_second": "TOTAL"
+      },
+      "PACKING": {
+        "columns": {
+          "CARTON": {
+            "x0_left": "2",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "Item": {
+            "x0_left": "21.65",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "P/O": {
+            "x0_left": "17.88",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "QUANTITY": {
+            "x0_left": "17.88",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "N/W(KG)": {
+            "x0_left": "3",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          },
+          "G/W(KG)": {
+            "x0_left": "2.26",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          }
+        },
+        "move_second": "97.2",
+        "end_first": "Total:",
+        "end_second": "頁碼:"
+      }
+    }
+  },
+  "0121": {
+    "Name": "ExtractJunLongPdf(self.pdf_pages, self.pdf_obj,self.company_number,self.path)",
+    "Comparison": "JunLongComparison(self.company_number)",
+    "CompanyName": "骏龙",
+    "Pandas_Columns": [
+      "商品类型",
+      "商品小类",
+      "品牌",
+      "型号",
+      "商品描述",
+      "产地",
+      "单位",
+      "数量",
+      "报关单价",
+      "件数",
+      "净重",
+      "毛重",
+      "税号",
+      "SKU",
+      "供应商",
+      "期票天数",
+      "对应的采购",
+      "料号",
+      "托盘数",
+      "箱号",
+      "备注",
+      "收款方",
+      "支付方式",
+      "关务品名"
+    ],
+    "Meau": {
+      "INVOICE": {
+        "columns": [
+          "Item"
+        ],
+        "x0_left": "3",
+        "x1_right": "0.05",
+        "top_0": "1",
+        "bottom_0": "1",
+        "move": "19",
+        "move_second": "28",
+        "end_first": "SUB",
+        "end_second": "TOTAL"
+      },
+      "PACKING": {
+        "columns": {
+          "CARTON": {
+            "x0_left": "2",
+            "x1_right": "30",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "Item": {
+            "x0_left": "21.65",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "P/O": {
+            "x0_left": "17.88",
+            "x1_right": "50",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "QUANTITY": {
+            "x0_left": "17.88",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18",
+            "desc": "10"
+          },
+          "N/W(KG)": {
+            "x0_left": "3",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          },
+          "G/W(KG)": {
+            "x0_left": "2.26",
+            "x1_right": "1",
+            "top_0": "1",
+            "bottom_0": "1",
+            "move": "18.882",
+            "desc": "10"
+          }
+        },
+        "move_second": "97.2",
+        "end_first": "Total:",
+        "end_second": "頁碼:"
+      }
+    }
+  },
+  "Path": "D:\\Mail\\PDFFile\\"
+}
+
+
