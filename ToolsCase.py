@@ -35,5 +35,3 @@ class Tools:
                     iterable[r], iterable[c] = iterable[c], iterable[r]
         return iterable
 
-
-#1124124
