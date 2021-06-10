@@ -7,3 +7,6 @@
 """
 def func():
     return "ssh"
+
+def func2():
+    return "mmc"
